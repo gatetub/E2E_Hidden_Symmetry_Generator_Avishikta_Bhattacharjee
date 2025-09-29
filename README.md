@@ -1,6 +1,5 @@
 #  Symmetry Generator Learning: Install & Quickstart
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-[https://colab.research.google.com/github/USER/REPO/blob/BRANCH/path/to/notebook.ipynb](https://github.com/gatetub/E2E_Hidden_Symmetry_Generator_Avishikta_Bhattacharjee/blob/main/generator-notebook.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/gatetub/E2E_Hidden_Symmetry_Generator_Avishikta_Bhattacharjee/blob/main/generator-notebook.ipynb)
 
 ### Summary
 This tutorial demonstrates how to learn latent symmetry generators that preserve a quadratic invariant $$\psi(x) = x^\top M x$$ using PyTorch, with a simple training loop and visualization utilities. It includes ready-to-run examples for SO(4) (Euclidean metric) and SO(1,3) Lorentz symmetry (Minkowski metric), and a plotting function to save generator heatmaps. The notebook is designed for quick experimentation, with configurable dimension, number of generators, data size, epochs, device, and series order for the transform.
