@@ -1,4 +1,4 @@
-Here is a brief, install-and-usage-focused README for the generator-functions notebook.[1]
+#Symmetry Generator Learning: Install & Quickstart
 
 ### Install
 - Requirements: Python 3.11, PyTorch, Matplotlib, tqdm, optional CUDA GPU support for faster training.[1]
@@ -9,14 +9,14 @@ pip install torch matplotlib tqdm
 
 ### Usage
 - Open generator-functions.ipynb and run cells top-to-bottom to train and visualize generators.[1]
-- SO(4) example (Euclidean metric M=I) :[1]
+- SO(4) example (Euclidean metric M=I) :
 ```python
 import torch
 M = torch.eye(4, device="cuda:0")
 model = train_generic_lie_group(n=4, M=M)
 visualize_generators(model, filename="so4.png", group_name="SO(4)")
 ```
-- Lorentz SO(1,3) example (Minkowski metric diag(-1,1,1,1)) :[1]
+- Lorentz SO(1,3) example (Minkowski metric diag(-1,1,1,1)) :
 ```python
 import torch
 
