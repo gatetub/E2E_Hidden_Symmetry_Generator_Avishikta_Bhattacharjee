@@ -9,7 +9,7 @@ This tutorial treats the target symmetry group as the isometry group of a manifo
 
 - Geometry via metric: choose $$M=I$$ for Euclidean manifolds (SO(n)) or $$M=\mathrm{diag}(-1,1,\dots,1)$$ for Minkowski space (SO(1,n−1)), which fixes the notion of distance preserved by the group.  
 - Lie algebra constraint: learn generator matrices $$A$$ intended to satisfy the infinitesimal isometry condition $$A^\top M + M A = 0$$, implemented implicitly by minimizing the closure loss on $$\psi$$.  
-- Group action: approximate the exponential map with a truncated series $$g(\theta) \approx \sum_{k=0}^{K} (\theta A)^k/k!$$ to transform data while preserving $$\psi$$, and use an orthogonality penalty to encourage distinct generators.
+- Group action: approximate the exponential map with a truncated series $$g(\theta)$$ to transform data while preserving $$\psi$$, and use an orthogonality penalty to encourage distinct generators.
 
 ### Install
 - Requirements: Python 3.11, PyTorch, Matplotlib, tqdm, optional CUDA GPU support for faster training.
