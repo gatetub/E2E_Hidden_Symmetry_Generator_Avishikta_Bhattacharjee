@@ -1,10 +1,11 @@
 #  Symmetry Generator Learning: Install & Quickstart
 
+### Summary
+This tutorial demonstrates how to learn latent symmetry generators that preserve a quadratic invariant $$ \psi(x) = x^\top M x $$ using PyTorch, with a simple training loop and visualization utilities. It includes ready-to-run examples for SO(4) (Euclidean metric) and SO(1,3) Lorentz symmetry (Minkowski metric), and a plotting function to save generator heatmaps. The notebook is designed for quick experimentation, with configurable dimension, number of generators, data size, epochs, device, and series order for the transform.
+
 ### Install
 - Requirements: Python 3.11, PyTorch, Matplotlib, tqdm, optional CUDA GPU support for faster training.
-- Install:
-```
-pip install torch matplotlib tqdm
+
 ```
 
 ### Usage
