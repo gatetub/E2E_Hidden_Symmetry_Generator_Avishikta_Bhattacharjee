@@ -1,4 +1,4 @@
-#Symmetry Generator Learning: Install & Quickstart
+#  Symmetry Generator Learning: Install & Quickstart
 
 ### Install
 - Requirements: Python 3.11, PyTorch, Matplotlib, tqdm, optional CUDA GPU support for faster training.[1]
