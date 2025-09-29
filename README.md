@@ -14,7 +14,6 @@ This tutorial treats the target symmetry group as the isometry group of a manifo
 ### Install
 - Requirements: Python 3.11, PyTorch, Matplotlib, tqdm, optional CUDA GPU support for faster training.
 
-```
 
 ### Usage
 - Open generator-functions.ipynb and run cells top-to-bottom to train and visualize generators.
