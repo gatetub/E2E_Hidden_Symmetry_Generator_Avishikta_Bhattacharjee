@@ -1,14 +1,14 @@
 #  Symmetry Generator Learning: Install & Quickstart
 
 ### Install
-- Requirements: Python 3.11, PyTorch, Matplotlib, tqdm, optional CUDA GPU support for faster training.[1]
+- Requirements: Python 3.11, PyTorch, Matplotlib, tqdm, optional CUDA GPU support for faster training.
 - Install:
 ```
 pip install torch matplotlib tqdm
 ```
 
 ### Usage
-- Open generator-functions.ipynb and run cells top-to-bottom to train and visualize generators.[1]
+- Open generator-functions.ipynb and run cells top-to-bottom to train and visualize generators.
 - SO(4) example (Euclidean metric M=I) :
 ```python
 import torch
